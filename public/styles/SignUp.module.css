@@ -1,0 +1,161 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 35px;
+  padding: 1rem;
+  color: white;
+  background: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_left_logo_button {
+  background-color:white;
+  border: 1px solid white;
+  background-image: url('../images/logo_zep.svg');
+  height: 33px;
+  width: 86px;
+  color: transparent;
+  margin-right: 10px;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~ */
+
+.centerAlign_five {
+  width: 100%;
+  padding: 8px 10px;
+  margin: 0 auto; /* 추가된 부분: 가운데 정렬을 위한 margin 설정 */
+}
+
+.mainFiveBlock {
+  margin: 0 auto;
+  width: 1080px;
+  padding: 8px 10px;
+  width: 1100px;
+}
+
+.whyAd {
+  height: 1200px;
+  margin-top: 10px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  border: 2px solid rgb(248, 248, 248);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.login_styledButton {
+  background: linear-gradient(to right, #a3a7e9 0%, #577dee 79%);
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  width: 65%;
+  height: 3rem;
+  border: none;
+  color: white;
+  border-radius: 2rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login_styled_Icon {
+  height: 3.5rem;
+  width: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4rem;
+  color: white;
+  cursor: pointer;
+}
+
+.WelcomeText {
+  margin: 3rem 0 2rem 0;
+}
+
+.InputContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 30%;
+  width: 100%;
+}
+
+.ButtonContainer {
+  margin: 1rem 0 2rem 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.HorizontalRule {
+  width: 90%;
+  height: 0.3rem;
+  border-radius: 0.8rem;
+  border:none;
+  margin: 1.5rem 0 1rem 0;
+  background: linear-gradient(to right, #14163c 0%, #03217b 79%);
+  backdrop-filter: blur(25px);
+}
+
+.IconsContainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2rem 0 3rem 0;
+  width: 80%;
+}
+
+.StyledInput {
+  background: rgba(255,255,255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border-radius: 2rem;
+  width: 80%;
+  height: 3rem;
+  padding: 1rem;
+  border: none;
+  outline: none;
+  color: #3c354e;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.login_icon {
+  height: 3.5rem;
+  width: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4rem;
+  color: white;
+  cursor: pointer;
+}
+
+.login_icon svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.login_signUpButton {
+  cursor: pointer;
+}
+
+/* ~~~~~~~ */
+.SignUpError {
+  color:rgb(255, 150, 150)
+}
+
+.SignSuccess {
+  color:rgb(255, 150, 150)
+}

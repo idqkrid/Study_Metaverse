@@ -1,0 +1,678 @@
+/* Home.module.css */
+
+.mainheader {
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 35px;
+  padding: 1rem;
+  color: white;
+  background: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.SlickHeader {
+  visibility: hidden;
+}
+
+.header_left_logo_button {
+  background-color:white;
+  border: 1px solid white;
+  background-image: url('../images/logo_zep.svg');
+  height: 33px;
+  width: 86px;
+  color: transparent;
+  margin-right: 10px;
+}
+
+.header_right_where_button,
+.header_right_what_button,
+.header_left_introduce_button {
+  background-color:white;
+  border: 1px solid white;
+  border-radius: 8px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.header_right_login_button {
+  color: #6758ff;
+  background-color: #f3f2ff;
+  padding: 0 12px;
+  font-weight: 600;
+  font-size: 14px;
+  height: 40px;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: calc(var(--button-min-width, 0)* 1px);
+  line-height: 1 !important;
+  white-space: nowrap;
+  vertical-align: middle;
+  outline: none;
+  border: 1px solid white;
+  box-shadow: inset 0 0 0 1px rgba(0,0,0,.03);
+}
+
+.header_right_login_button a {
+  text-decoration: none;
+}
+
+.header_right_go_button {
+  margin-left: 10px;
+  color: #fff;
+  background-color: #6758ff;
+  padding: 0 12px;
+  font-weight: 600;
+  font-size: 14px;
+  height: 40px;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: calc(var(--button-min-width, 0)* 1px);
+  line-height: 1 !important;
+  white-space: nowrap;
+  vertical-align: middle;
+  outline: none;
+  border: 1px solid white;
+  box-shadow: inset 0 0 0 1px rgba(0,0,0,.03);
+}
+
+.header_left {
+  float: left;
+  margin-top: 8px;
+  gap: 32px;
+}
+
+.footer_left {
+  float: left;
+  margin-top: 8px;
+  margin-left: 10px;
+  margin-bottom: 30px;
+  gap: 32px;
+}
+
+.header_right {
+  float: right;
+  margin-top: 8px;
+}
+
+.centerAlign_first {
+  width: 100%;
+  padding: 8px 10px;
+  margin: 0 auto; /* 추가된 부분: 가운데 정렬을 위한 margin 설정 */
+}
+
+.centerAlign_second {
+  width: 100%;
+  padding: 8px 10px;
+  margin: 0 auto;
+}
+
+.centerAlign_three {
+  width: 100%;
+  padding: 8px 10px;
+  margin: 0 auto;
+}
+
+.centerAlign_four {
+  width: 100%;
+  padding: 8px 10px;
+  margin: 0 auto;
+}
+
+.centerAlign_five {
+  width: 100%;
+  padding: 8px 10px;
+  margin: 0 auto; /* 추가된 부분: 가운데 정렬을 위한 margin 설정 */
+}
+
+.centerAlign_six {
+  width: 100%;
+  padding: 8px 10px;
+  margin: 0 auto; /* 추가된 부분: 가운데 정렬을 위한 margin 설정 */
+}
+
+.centerAlign {
+  margin: 0 auto;
+  width: 1080px;
+  padding: 8px 10px;
+  width: 1100px;
+}
+
+.mainFirstBlock {
+  display: inline-block;
+  width: 100%;
+  height: 908px;
+}
+
+.mainSecondBlock {
+  display: inline-block;
+  width: 100%;
+}
+
+.mainThreeBlock {
+  display: inline-block;
+  width: 100%;
+}
+
+.mainFourBlock {
+  margin: 0 auto;
+  width: 1080px;
+  padding: 8px 10px;
+  width: 1100px;
+}
+
+.mainFiveBlock {
+  margin: 0 auto;
+  width: 1080px;
+  padding: 8px 10px;
+  width: 1100px;
+}
+
+.mainSixBlock {
+  margin: 0 auto;
+  width: 1080px;
+  padding: 8px 10px;
+  width: 1100px;
+}
+
+.mainAd {
+  height: 908px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  border: 2px solid #555;
+}
+
+.canAd {
+  height: 1200px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  border: 2px solid rgb(248, 248, 248);
+}
+
+.whyAd {
+  height: 1200px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  border: 2px solid rgb(248, 248, 248);
+}
+
+.faqAd {
+  height: 1200px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  border: 2px solid rgb(248, 248, 248);
+}
+
+.spaceAd {
+  height: 430px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  border: 2px solid rgb(248, 248, 248);
+}
+
+.canAd_row1,
+.canAd_row2 {
+  display: flex;
+  justify-content: center
+}
+
+.whyAd_row1,
+.whyAd_row2 {
+  display: flex;
+  justify-content: center
+}
+
+.canAd_two,
+.canAd_one {
+  display: inline-block;
+  width: 45%;
+  height: 500px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  border: 2px solid #555;
+  border-radius: 10%;
+  overflow: hidden; /* 이미지가 부모 요소를 넘어가면 숨김 처리 */
+}
+
+.whyAd_one {
+  display: inline-block;
+  width: 20%;
+  height: 500px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 10%;
+  overflow: hidden; /* 이미지가 부모 요소를 넘어가면 숨김 처리 */
+}
+.whyAd_two {
+  display: inline-block;
+  width: 70%;
+  height: 500px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  border: 2px solid rgb(190, 190, 190);
+  border-radius: 10%;
+  overflow: hidden; /* 이미지가 부모 요소를 넘어가면 숨김 처리 */
+}
+
+.whyAd_three {
+  display: inline-block;
+  width: 50%;
+  height: 500px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  border: 2px solid rgb(190, 190, 190);
+  border-radius: 10%;
+  overflow: hidden; /* 이미지가 부모 요소를 넘어가면 숨김 처리 */
+}
+
+.whyAd_four {
+  display: inline-block;
+  width: 40%;
+  height: 500px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  border: 2px solid rgb(190, 190, 190);
+  border-radius: 10%;
+  overflow: hidden; /* 이미지가 부모 요소를 넘어가면 숨김 처리 */
+}
+
+.canAd_oneTitle {
+  padding: 30px;
+}
+
+.canAd_oneTitle h3 {
+  font: bold;
+  font-size: 30px;
+}
+
+.canAd_oneImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* 이미지가 가득 차도록 설정 */
+}
+
+.whyAd_oneImage {
+  margin-top: 20px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* 이미지가 가득 차도록 설정 */
+}
+
+.spaceHead {
+  text-align: center;
+  font: bold;
+  font-size: 34px;
+}
+
+.canHead {
+  text-align: center;
+  font: bold;
+  font-size: 34px;
+}
+
+.whyHeadH1 {
+  margin-left: 10%;
+  font: bold;
+  font-size: 30px;
+}
+
+.whyHeadH2 {
+  margin-left: 10%;
+  font-size: 15px;
+}
+
+.whyHeadH3 {
+  margin-left: 10%;
+  margin-right: 10%;
+  font: bold;
+  font-size: 30px;
+}
+
+.whyHeadH4 {
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 15px;
+}
+
+.canQuestion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  margin: 0 auto 16px;
+  color: #6758ff;
+  font-weight: 800;
+  font-size: 30px;
+  background-color: #e9e8ff;
+  border-radius: 27px;
+  padding: 4px;
+}
+
+.whyQuestion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  margin-left: 10%;
+  color: #6758ff;
+  font-weight: 800;
+  font-size: 30px;
+  background-color: #e9e8ff;
+  border-radius: 27px;
+  padding: 4px;
+}
+
+.mainLogin {
+  float: left;
+  width: 332px;
+  height: 120px;
+  vertical-align: top;
+  background-color: white;
+  margin-bottom: 8px;
+  border: 2px solid #555;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  color: white;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  z-index: -1; /* 동영상이 다른 요소 위에 렌더링되도록 함 */
+}
+
+.videoContainer {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.overlayContent {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1; /* 동영상 위에 렌더링되도록 함 */
+  text-align: center;
+}
+
+.mainH4 {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #6e07f4;
+}
+
+.mainDonwload {
+  background-color: transparent;
+  border: none;
+  border-radius: 20px;
+  padding: 1rem 2rem;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  background: linear-gradient(90deg, #6758ff, #994aff);
+}
+
+.slickHeader {
+  margin: 50px auto;
+  text-align: center;
+  font-size: 80px;
+}
+
+.slick-slider .slick-initialized {
+  height: 100px;
+  width: 100px;
+}
+
+.SlickAd {
+  height: 380px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  border: 2px solid rgb(248, 248, 248);
+}
+
+.slider {
+  width: 100%;
+  height: 400px;
+}
+
+.slide, .slide img {
+  width: 100%;
+  height: 460px;
+}
+
+.slide {
+  opacity: .5;
+  transform: scale(.7)
+}
+
+.slide-active {
+  opacity: 1;
+}
+
+.spaceButtonDiv {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.spaceButton {
+  width: 20%;
+  height: 100%;
+  padding: 10px;
+  border: 2px solid #e8e8e8;
+  cursor: pointer;
+  margin-top: 10px;
+  display: inline-block;
+  border-radius: 10px;
+  font-size: 20px;
+  color: rgb(109, 0, 251);
+  background-color: #e0d3fa
+}
+
+.btn_success {
+  background: coral;
+  border: 1px solid #ddd;
+  padding: 8px 20px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.box_card {
+  background: rgb(246, 246, 246);
+  padding: 20px;
+  box-shadow: 0px 0px 5px #ddd;
+}
+
+.faqBox_two,
+.faqBox_one {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 9%;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  border: 2px solid rgba(194, 194, 194, 0.945);
+}
+
+
+.faqQuestionToggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  color: #6758ff;
+  font-weight: 800;
+  font-size: 30px;
+  background-color: #e9e8ff;
+  border-radius: 27px;
+  padding: 4px;
+  margin-right: 10px;
+}
+
+.faqQuestion {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  color: #6758ff;
+  font-weight: 800;
+  font-size: 30px;
+  background-color: #e9e8ff;
+  border-radius: 27px;
+  padding: 4px;
+  margin-left: 30px;
+  margin-right: 10px;
+}
+
+.faqQuestionTitle {
+  display: inline-block;
+  font-size: 15px;
+  color: rgb(3, 3, 3);
+}
+
+.long_text {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease; /* Add a smooth transition effect */
+}
+
+.expanded {
+  max-height: 10rem; /* Or any desired height */
+}
+
+/* Card */
+.styledCard {
+  width: 100%;
+  background-color: #fab1a0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+
+.styled_Content_Wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* 이미지와 텍스트를 수직으로 정렬 */
+  justify-content: space-between; /* 이미지와 텍스트를 수평으로 정렬 */
+}
+
+.styledCategory {
+  display: inline-block;
+  padding: 10px;
+  border: 2px solid #e33209;
+  border-radius: 40%; /* 테두리를 원 모양으로 만듭니다 */
+  font-size: 10px;
+  color: black;
+  margin-top: 20px;
+}
+
+.styledHeading {
+  margin-top: 50px;
+  font-size: 80%; /* 원하는 크기로 조절하세요 */
+}
+
+.styledParagraph {
+  font-size: 80%; /* 원하는 크기로 조절하세요 */
+  display: inline;
+}
+
+.styledTitleContextWrapper {
+  display: block;
+  height: 200px; /* 이미지 크기 조절 */
+  width: 200px; /* 이미지 크기 조절 */
+  margin-left: 10px;
+}
+
+.styledImageWrapper {
+  background-size: cover;
+}
+
+.styledImage {
+  height: 200px; /* 이미지 크기 조절 */
+  width: 200px; /* 이미지 크기 조절 */
+  object-fit: cover;
+  margin-left: 10px; /* 이미지와 텍스트 간격 조절 */
+}
+
+/* ~~~~ */
+.NavMenu {
+  /* unordered list */
+  /* ordered list */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.NavMenuItem {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* NavButton */
+.NavButton {
+  width: 100%;
+  height: 100%;
+  border: 2px solid #e8e8e8;
+  cursor: pointer;
+  border-radius: 8px;
+  color: black;
+  background-color: #ffffff;
+}
+
+/* FirstNavItem */
+.FirstNavItem {
+  width: 100%;
+  background-position: 0 -285px;
+  margin-left: 0;
+}
+
+.Blind {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  margin: -1px;
+  width: 1px;
+  height: 1px;
+}
+
+/* ~~~~~~ */
+
+.NextContainer {
+  position: absolute;
+  right: 10px;
+  top: -70px;
+}
+
+.PreButtonWrapper,
+.NextButtonWrapper {
+  background-color: #fab1a0;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+.PreNextContainer {
+  position: absolute;
+  right: 80px;
+  top: -70px;
+}
